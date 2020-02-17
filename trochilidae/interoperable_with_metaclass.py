@@ -1,7 +1,7 @@
 from future.utils import with_metaclass as with_metaclass_future
 from six import with_metaclass as with_metaclass_six
 
-__all__ = ["with_metaclass_future", "with_metaclass_six"]
+__all__ = ["interoperable_with_metaclass_future", "interoperable_with_metaclass_six"]
 
 
 def interoperable_with_metaclass(with_metaclass, metaclass):
